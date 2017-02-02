@@ -1,4 +1,4 @@
-# [test](https://t.me/joinchat/AAAAAEAYAls7mMO2LQc0Kw)
+# [DELETED_TG](https://t.me/joinchat/AAAAAEAYAls7mMO2LQc0Kw)
 
 **An advanced and powerful administration bot based on NEW TG-CLI
 
