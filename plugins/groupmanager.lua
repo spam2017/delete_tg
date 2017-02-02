@@ -3288,6 +3288,10 @@ text4 = [[
 !time
 #زمان
 ⏱نشان دادن تاریخ و ساعت
+〰〰〰〰〰
+!kickme
+yes&no
+دستور اخراج به درخواست کاربر توسط ربات⛔️
 ...
 ]]
 return text4
@@ -3464,6 +3468,7 @@ patterns ={
 "^[!/#](setwelcome) (.*)",
 "^[!/#](welcome) (.*)$"
 "^[!#/]time (.*)$","^[!#/]زمان (.*)$"
+^kickme$",
 },
 run=run,
 pre_process = pre_process
