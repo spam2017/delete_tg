@@ -3019,7 +3019,12 @@ _Send Msg To All Groups_
 ⚙*!autoleave enable*
 ⚙*!autoleave disable*
 _set Auto leave_
-
+〰〰〰〰〰
+⚙*!time *
+⚙*#زمان *
+〰〰〰〰〰
+⛔️*kickme {yes enable
+          {no disable
 _You Can Use_ *[!/#]* _To Run The Commands_
 ]]
 
@@ -3468,7 +3473,7 @@ patterns ={
 "^[!/#](setwelcome) (.*)",
 "^[!/#](welcome) (.*)$"
 "^[!#/]time (.*)$","^[!#/]زمان (.*)$"
-^kickme$",
+"^kickme$",
 },
 run=run,
 pre_process = pre_process
