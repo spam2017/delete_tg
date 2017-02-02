@@ -1,4 +1,4 @@
---Begin msg_checks.lua By @SoLiD
+--Begin msg_checks.lua By @Xx_mrIRANI_xX
 local TIME_CHECK = 2
 local function pre_process(msg)
 local data = load_data(_config.moderation.data)
@@ -409,7 +409,5 @@ return {
 	pre_process = pre_process
 }
 -- کد های پایین در ربات نشان داده نمیشوند
--- http://permag.ir
--- @permag_ir
--- @permag_bots
--- @permag
+-- @Xx_mrIRANI_xX
+-- @DELETE_TG
