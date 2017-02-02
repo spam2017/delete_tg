@@ -52,6 +52,5 @@ return {
   run = run,
   pre_process = pre_process
 }
--- http://permag.ir
--- @permag_ir
--- @permag_bots
+-- Xx_mrIRANI_xX
+-- @DELETE_TG
