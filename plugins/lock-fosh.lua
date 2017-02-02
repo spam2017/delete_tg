@@ -90,6 +90,17 @@ return {
 	"خوارکصده",
 	"kharko3de",
 	"مادرجنده",
+	"مادر کونی",
+	"کسکش",
+	"کونده",
+	"کیری",
+	"سگ صفت",
+	"کوس",
+	"کون",
+	"بی ناموس",
+	"کیور",
+	"مخنت",
+	"مخنث",
 
 	--Commands ##Don't change this##
 	"^[!/#]([Ll][Oo][Cc][Kk]) (.*)$",
@@ -100,6 +111,5 @@ return {
   pre_process = pre_process
 }
 
--- http://permag.ir
--- @permag_ir
--- @permag_bots
+-- Xx_mrIRANI_xX
+-- @DELETE_TG
