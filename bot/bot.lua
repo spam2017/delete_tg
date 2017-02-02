@@ -892,7 +892,6 @@ elseif msg.content_.ID == "MessageGame" then
 
 end
 -- کد های پایین در ربات نشان داده نمیشوند
--- http://permag.ir
--- @permag_ir
--- @permag_bots
--- @permag
+-- http://t.me/Xx_mrIRANI_xX
+-- @Xx_mrIRANI_xX
+-- @DELETE_TG
