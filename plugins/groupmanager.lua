@@ -3284,6 +3284,10 @@ text4 = [[
 ⚙*!autoleave enable*
 ⚙*!autoleave disable*
 💬 تنظیم خارج شدن ربات
+〰〰〰〰〰
+!time
+#زمان
+⏱نشان دادن تاریخ و ساعت
 ...
 ]]
 return text4
@@ -3459,7 +3463,7 @@ patterns ={
 "^([https?://w]*.?telegram.me/joinchat/%S+)$",
 "^[!/#](setwelcome) (.*)",
 "^[!/#](welcome) (.*)$"
-
+"^[!#/]time (.*)$","^[!#/]زمان (.*)$"
 },
 run=run,
 pre_process = pre_process
