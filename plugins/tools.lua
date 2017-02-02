@@ -629,7 +629,5 @@ run = run
 }
 
 -- کد های پایین در ربات نشان داده نمیشوند
--- http://permag.ir
--- @permag_ir
--- @permag_bots
--- @permag
+-- @Xx_mrIRANI_xX
+-- @DELETE_TG
