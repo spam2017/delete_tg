@@ -1,7 +1,7 @@
 tdcli = dofile('./tg/tdcli.lua')
 serpent = (loadfile "./libs/serpent.lua")()
 feedparser = (loadfile "./libs/feedparser.lua")()
-our_id = 123456789 -- Put Here Your Bot ID
+our_id = 281186093 -- Put Here Your Bot ID
 URL = require "socket.url"
 http = require "socket.http"
 https = require "ssl.https"
@@ -85,23 +85,21 @@ function create_config( )
     "expiretime",
     "mute-time",
     "del",
-	"lock-fosh"
+	"lock-fosh",
+	"time",
+	"kickme"
  },
-    sudo_users = {123456789},
+    sudo_users = {240870611},
     admins = {},
     disabled_channels = {},
     moderation = {data = './data/moderation.json'},
     info_text = [[》permag.ir v3
-
 🔰Our channel :
 》@permag_bots《
-
 🔰Our channel2 :
 》@permag_ir《
-
 🔰Our channel3 :
 》@permag《
-
 🔰Our website :
 》http://permag.ir
 ]],
