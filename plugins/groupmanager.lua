@@ -2896,104 +2896,71 @@ if matches[1] == "help" and is_mod(msg) then
 if not lang then
 text = [[
 🔰*Bot Commands:*🔰
-
 در حال حاضر زبان ربات انگلیسی میباشد برای تغییر زبان دستور زیر را ارسال کنید
 *!setlang fa*
-
 👑*!setowner* `[username|id|reply]` 
 _Set Group Owner(Multi Owner)_
-
 👑*!remowner* `[username|id|reply]` 
  _Remove User From Owner List_
-
 🤖*!promote* `[username|id|reply]` 
 _Promote User To Group Admin_
-
 🤖*!demote* `[username|id|reply]` 
 _Demote User From Group Admins List_
-
 🗣*!setflood* `[1-50]`
 _Set Flooding Number_
-
 🔇*!silent* `[username|id|reply]` 
 _Silent User From Group_
-
 🔊*!unsilent* `[username|id|reply]` 
 _Unsilent User From Group_
-
 👽*!kick* `[username|id|reply]` 
 _Kick User From Group_
-
 👽*!ban* `[username|id|reply]` 
 _Ban User From Group_
-
 👽*!unban* `[username|id|reply]` 
 _UnBan User From Group_
-
 🔹*!res* `[username]`
 _Show User ID_
-
 🔹*!id* `[reply]`
 _Show User ID_
-
 🔹*!whois* `[id]`
 _Show User's Username And Name_
-
 🔒*!lock* `[link | tag | arabic | edit | fosh | webpage | bots | spam | flood | markdown | mention]`
 _If This Actions Lock, Bot Check Actions And Delete Them_
-
 🔓*!unlock* `[link | tag | arabic | edit | fosh | webpage | bots | spam | flood | markdown | mention]`
 _If This Actions Unlock, Bot Not Delete Them_
-
 🔕*!mute* `[gifs | photo | tgservice | document | sticker | video | text | forward | location | audio | voice | contact | all]`
 _If This Actions Lock, Bot Check Actions And Delete Them_
-
 🔔*!unmute* `[gif | photo | tgservice | document | sticker | video | tgservice | text | forward | inline | location | audio | voice | contact | all]`
 _If This Actions Unlock, Bot Not Delete Them_
-
 🔹*!set*`[rules | name | photo | link | about]`
 _Bot Set Them_
-
 🔹*!clean* `[bans | mods | bots | rules | about | silentlist]`   
 _Bot Clean Them_
-
 🔹*!pin* `[reply]`
 _Pin Your Message_
-
 🔹*!unpin* 
 _Unpin Pinned Message_
-
 🛡*!settings*
 _Show Group Settings_
-
 🔕*!mutelist*
 _Show Mutes List_
-
 🔕*!silentlist*
 _Show Silented Users List_
-
 🔕*!banlist*
 _Show Banned Users List_
-
 👑*!ownerlist*
 _Show Group Owners List_ 
-
 🤖*!modlist* 
 _Show Group Moderators List_
-
 🎖*!rules*
 _Show Group Rules_
-
 ⚜*!gpinfo*
 _Show Group Information_
-
 ⚜*!link*
 _Show Group Link_
-
 🔇*!mt 0 1* (0h 1m)
 🔊*!unmt*
 _Mute All With Time_
-
 🚫*!filter* 
 🚫*!unfilter* 
 _filter word_
@@ -3013,40 +2980,32 @@ _set expire for group_
 ➖*!welcome disable*
 _set welcome for group_
 〰〰〰〰〰
+🔸⏱*!time
+🔹⏱*زمان!
+〰〰〰〰〰
+🔺Ⓜ️*!kickme
+〰〰〰〰〰
 📣*!broadcast* text
 _Send Msg To All Groups_
 〰〰〰〰〰
 ⚙*!autoleave enable*
 ⚙*!autoleave disable*
 _set Auto leave_
-〰〰〰〰〰
-⚙*!time *
-⚙*#زمان *
-〰〰〰〰〰
-⛔️*kickme {yes enable
-          {no disable
 _You Can Use_ *[!/#]* _To Run The Commands_
 ]]
 
 elseif lang then
 text = [[
-
 📝 برای دیدن دستورات مورد نظر خود مورد دلخواه را ارسال کنید :
-
 👽  دستورات  👽
-
 🔰 برای مشاهده دستورات مدیریتی دستور زیر را ارسال کنید
 #مدیریت
-
 🔐برای مشاهده دستورات قفلی دستور زیر را ارسال کنید
 #قفل
-
 🔇برای مشاهده دستورات ممنوعیت دستور زیر را ارسال کنید
 #ممنوع
-
 👽آگاهی از آنلاین بودن ربات
 #انلاینی
-
 ➖➖➖➖➖
 در حال حاضر زبان ربات فارسی میباشد برای تغییر زبان دستور زیر را ارسال کنید
 *!setlang en*
@@ -3058,10 +3017,7 @@ end
 
 if matches[1] == "قفل" and is_mod(msg) then
 text2 = [[
-
 🔐 لیست قفل ها 🔐
-
-
 💬 قفل کردن لینک گروه ها
 🔒*!lock link*
 🔓*!unlock link*
@@ -3114,8 +3070,6 @@ end
 if matches[1] == "ممنوع" and is_mod(msg) then
 text3 = [[
 🔕 لیست ممنوعیت ها 🔕
-
-
 💬 ارسال گیف ممنوع
 🔇*!mute gif*
 🔊*!unmute gif*
@@ -3188,11 +3142,8 @@ end
 
 if matches[1] == "مدیریت" and is_mod(msg) then
 text4 = [[
-
 🔰 لیست دستورات مدیریت 🔰
-
 ➰شما میتوانید از '/' یا '!' یا '#' برای اجرای دستورات استفاده کنید.
-
 〰〰〰〰〰
 🔰 *!settings*
 💬 نمایش تنظیمات گروه
@@ -3290,13 +3241,11 @@ text4 = [[
 ⚙*!autoleave disable*
 💬 تنظیم خارج شدن ربات
 〰〰〰〰〰
-!time
-#زمان
-⏱نشان دادن تاریخ و ساعت
+🔸⏱*!temi
+🔹⏱*زمان!
 〰〰〰〰〰
-!kickme
-yes&no
-دستور اخراج به درخواست کاربر توسط ربات⛔️
+🔺Ⓜ️*!kickme
+〰〰〰〰〰
 ...
 ]]
 return text4
@@ -3472,12 +3421,9 @@ patterns ={
 "^([https?://w]*.?telegram.me/joinchat/%S+)$",
 "^[!/#](setwelcome) (.*)",
 "^[!/#](welcome) (.*)$"
-"^[!#/](time) (.*)$","^[!#/]زمان (.*)$"
-"^kickme$",
+"^[!#/](time) (.*)$","^[!#/](زمان) (.*)$"},
+"^[!#/](kickme)$",
 },
 run=run,
 pre_process = pre_process
 }
--- کد های پایین در ربات نشان داده نمیشوند
--- Xx_mrIRANI_xX
--- @DELETE_TG
