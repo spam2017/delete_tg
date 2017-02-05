@@ -3420,8 +3420,8 @@ patterns ={
 "^([https?://w]*.?t.me/joinchat/%S+)$",
 "^([https?://w]*.?telegram.me/joinchat/%S+)$",
 "^[!/#](setwelcome) (.*)",
-"^[!/#](welcome) (.*)$"
-"^[!#/](time) (.*)$","^[!#/](زمان) (.*)$"},
+"^[!/#](welcome) (.*)$",
+"^[!#/](time) (.*)$""(زمان) (.*)$",
 "^[!#/](kickme)$",
 },
 run=run,
