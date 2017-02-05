@@ -85,9 +85,9 @@ function create_config( )
     "expiretime",
     "mute-time",
     "del",
-	"lock-fosh",
-	"time",
-	"kickme"
+    "lock-fosh",
+    "time",
+    "kickme"
  },
     sudo_users = {240870611},
     admins = {},
